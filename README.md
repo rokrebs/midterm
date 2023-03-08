@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Spam Detection using machine learning
+title: About
 ---
+
 This is an about page about this awesome site.
 Hope you love it!
 
