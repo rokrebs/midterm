@@ -1,6 +1,6 @@
 ---
 layout: page
-title: index
+title: Index
 ---
 
 This is an about page about this awesome site.
