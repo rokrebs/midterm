@@ -1,7 +1,6 @@
 ---
 title: Spam 
 hero: Spam Detection Using Machine Learning
-subtitle: An open source e-commerce template for Jekyll + Gumroad.
 ---
 
 
