@@ -1,4 +1,4 @@
-# Spam Detection Usin Machine Learning
+# Spam Detection Using Machine Learning
 
 ## description
 
