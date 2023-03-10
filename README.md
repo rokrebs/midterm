@@ -3,6 +3,7 @@ title: Spam Detection Using Machine Learning
 author:  Rocio Krebs
 ---
 
+
 ## Description
 
 The primary source of communication is email. Emails are for private or business reasons and for any kind of online registration. Therefore, with the increase of information delivered through emails, spam emails are also delivered. Every person gets, on average, around 20 emails every day.
