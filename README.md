@@ -1,4 +1,6 @@
-# Spam Detection Using Machine Learning
+---
+title: Spam Detection Using Machine Learning
+---
 
 ## Description
 
