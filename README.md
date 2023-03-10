@@ -1,8 +1,4 @@
----
-title: Spam Detection Using Machine Learning
-author:  Rocio Krebs
----
-
+# Spam Detection Using Machine Learning
 
 ## Description
 
