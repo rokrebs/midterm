@@ -1,18 +1,78 @@
 ---
 title: Spam Detection Using Machine Learning
+author: Rocio Krebs
 ---
 
 
-## Description
+## Development Enviroment
 
-The primary source of communication is email. Emails are for private or business reasons and for any kind of online registration. Therefore, with the increase of information delivered through emails, spam emails are also delivered. Every person gets, on average, around 20 emails every day.
-This project aims to use machine learning techniques to predict the presence of spam messages. 
-This project uses a dataset containing a list of spam and non-spam emails to train and test the machine-learning models. The models will be evaluated based on their accuracy in predicting if a message is spam. This project is very useful for managing and controlling messages that could jeopardize our privacy and put at risk out personal information. This project will demonstrate the use of different machine learning algorithms and their efficacy in the detection of spam messages. Cyber-attacks through spam messages can be avoided when we have the right model to identify the threat.
+For the Spam detection project, I decided to use Google Colab, which runs virtually and is accessible from any browser. It only requires a login with a google account to run the Notebook
 
-## Problem Statement
+## Libraries
 
-Spam messages are a way to exploit users and their private information; therefore, identifying spam messages is one of the highest priorities to protect anyone from cyber-attacks through spam messages. This project aims to address this problem by using machine learning to predict if the content of a message is spam. The largest cybersecurity threat to a company is employees. This is attributed to spam emails tricking employees into clicking on malicious links. This project will aim to lessen this threat. Identifying spam and stopping malicious email attacks can be solved using machine learning.
+The following libraries has been used: 
+- pandas
+- sklearn
+- numpy
+- nltk
+- re
+- seaborn
+- matplotlib.pyplot
 
-## Proposed Solution
-This project will use machine learning algorithms to analyze a large dataset of spam messages. The algorithms will be trained on a subset of the data and then tested on the remaining data to evaluate their accuracy in predicting Spam messages. Since we know that spam is adapting to people becoming more educated on it and how to respond to it, individuals are making it more difficult to identify an email as being spam. This being known, The data sets are current and up-to-date to identify spam that could otherwise be interpreted as legitimate. This project is part of the response to the changing threat landscape.
+## Colab Notebook
+
+The Colab Nootbook can be downloaded here: [Spam Detection] (https://colab.research.google.com/drive/17my6zWZR8hrFyJJmSfxNe1GUBkizrVsX?usp=sharing).
+
+## Dataset Exploration
+
+For Spam Detection, I used a Kaggle Dataset containing an extensive list of emails. First, I reviewed the dataset, printed out the dimension and an overview of how it looks and found out that the distribution of the emails needed to meet the requirements for my classification. It needed to include more spam emails. So I had to do a resampling of the dataset to achieve an equal class distribution, which means I got the same amount of spam and ham emails.
+
+
+## Preprocessing
+
+Before I could start implementing any classification algorithm. I had to prepare the emails in the right format, called preprocessing.
+For preprocessing the emails.
+
+I removed:
+
+- Stop words 
+- Numbers
+- Symbols
+- anything that was not a letter
+
+Finally after I cleand the text of irrelevant information, I converted the text in marix of numbers.
+
+## Classification
+
+After the Preprocessing was done, I could start using the sckit-learn library with the following algorithms:
+
+- Naive Bayes: A still very popular classifier for text classification is the naïve Bayes classifier, which gained popularity in applications of email spam filtering. Naïve Bayes classifiers are easy to implement, computationally efficient, and tend to perform particularly well on rela- tively small datasets compared to other algorithms.
+- Decision Trees: this model as breaking down our data by making a decision based on asking a series of questions. Decision trees can build complex decision boundaries by dividing the feature space into rectangles. However, we have to be careful since the deeper the decision tree, the more complex the decision boundary becomes, which can easily result in overfitting.
+- K-Nearest Neighbors: KNN is a typical example of a lazy learner. It is called “lazy” not because of its apparent simplicity, but because it doesn’t learn a discriminative function from the training data but memorizes the training dataset instead. 
+
+Training using K-Nearest Neighbors takes long time running on the Colab Notebook.
+
+## Performance
+
+To evaluate the performance of the classifications algorithms, I used the following metrics:
+
+- Precision: It measures the proportion of correctly classified positive instances out of all instances that the model predicted as positive.
+- Recall: It measures the proportion of actual positive instances that were correctly classified by the model.
+- f1-score: It is a metric used to evaluate the performance of a classification model that combines precision and recall. It is the harmonic mean of precision and recall and provides a single score that reflects both metrics.
+- Confusius Matrix: It is a table used to evaluate the performance of a classification model. A confusion matrix consists of four entries: true positives (TP), true negatives (TN), false positives (FP), and false negatives (FN).
+|                   | Predicte Positive   | Predicte Negative   |
+| :---------------- | :-----------------: | :-----------------: |
+| Actual Positive   | True Positive (TP)  | False Negative (FN) | 
+| Actual Negative   | False Positive (FP) | True Negative (TN)  |  
+The entries in the diagonal (TP and TN) represent correct predictions, while the off-diagonal entries (FP and FN) represent incorrect predictions.       
+- Precision Recall Curve
+
+## Results
+
+This is the graphical overview of the classifications performnance:
+
+- Naive Bayes
+- Decision Tree:
+- K-Nearest Neighbors
+
 
