@@ -64,17 +64,18 @@ To evaluate the performance of the classifications algorithms, I used the follow
 |                   | Predicte Positive   | Predicte Negative   |
 | :---------------- | :-----------------: | :-----------------: |
 | Actual Positive   | True Positive (TP)  | False Negative (FN) | 
-| Actual Negative   | False Positive (FP) | True Negative (TN)  |  <br>
+| Actual Negative   | False Positive (FP) | True Negative (TN)  |  
 
-The entries in the diagonal (TP and TN) represent correct predictions, while the off-diagonal entries (FP and FN) represent incorrect predictions.       
+  The entries in the diagonal (TP and TN) represent correct predictions, while the off-diagonal entries (FP and FN) represent incorrect predictions.       
 - Precision Recall Curve
 
 ## Results
 
 This is the graphical overview of the classifications performnance:
 
-- Naive Bayes
-- Decision Tree:
+- Naive Bayes:
+  <img width="478" alt="Screenshot 2023-03-12 at 15 19 00" src="https://user-images.githubusercontent.com/54292420/224571172-4f7fb45d-8af9-488d-bfd6-5e3d902d4b3f.png">
+  - Decision Tree:
 - K-Nearest Neighbors
 
 
