@@ -73,11 +73,16 @@ To evaluate the performance of the classifications algorithms, I used the follow
 
 This is the graphical overview of the classifications performnance:
 
-- Naive Bayes:<br>
+### Naive Bayes
+
   <img width="478" alt="Screenshot 2023-03-12 at 15 19 00" src="https://user-images.githubusercontent.com/54292420/224571172-4f7fb45d-8af9-488d-bfd6-5e3d902d4b3f.png"> <br> <img width="450" alt="Screenshot 2023-03-12 at 15 26 42" src="https://user-images.githubusercontent.com/54292420/224571627-8cceb562-dac5-4c8a-b1fd-bc4b06a812ef.png"> <br> <img width="434" alt="Screenshot 2023-03-12 at 15 28 35" src="https://user-images.githubusercontent.com/54292420/224571692-be7c5494-d2f1-4cc7-a7c1-09ab77ce9dee.png">
-- Decision Tree:<br>
+  
+### Decision Tree
+
   <img width="506" alt="Screenshot 2023-03-12 at 15 22 18" src="https://user-images.githubusercontent.com/54292420/224571364-6962b72c-5fcc-49b9-8407-4ed50672b8d8.png"> <br> <img width="450" alt="Screenshot 2023-03-12 at 15 27 08" src="https://user-images.githubusercontent.com/54292420/224571708-a654ec88-ff48-419e-8910-86d587315148.png"> <br> <img width="434" alt="Screenshot 2023-03-12 at 15 28 48" src="https://user-images.githubusercontent.com/54292420/224571713-84a70f79-710f-40f2-bba4-78c70d6e3478.png">
-- K-Nearest Neighbors: <br>
+  
+### K-Nearest Neighbors
+
   <img width="493" alt="Screenshot 2023-03-12 at 15 24 48" src="https://user-images.githubusercontent.com/54292420/224571488-87bb141f-14b2-4d59-a66b-d37152a4807e.png"> <br> <img width="450" alt="Screenshot 2023-03-12 at 15 27 22" src="https://user-images.githubusercontent.com/54292420/224571740-5b583a1a-9e0e-48ee-9161-a5c2e94c53f8.png"> <br> <img width="434" alt="Screenshot 2023-03-12 at 15 28 59" src="https://user-images.githubusercontent.com/54292420/224571743-f4102574-e025-42bc-bb58-0d6a95a079b3.png">
 
 
