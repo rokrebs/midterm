@@ -61,10 +61,12 @@ To evaluate the performance of the classifications algorithms, I used the follow
 - Recall: It measures the proportion of actual positive instances that were correctly classified by the model.
 - f1-score: It is a metric used to evaluate the performance of a classification model that combines precision and recall. It is the harmonic mean of precision and recall and provides a single score that reflects both metrics.
 - Confusius Matrix: It is a table used to evaluate the performance of a classification model. A confusion matrix consists of four entries: true positives (TP), true negatives (TN), false positives (FP), and false negatives (FN).<br>
+
 |                   | Predicte Positive   | Predicte Negative   |
 | :---------------- | :-----------------: | :-----------------: |
 | Actual Positive   | True Positive (TP)  | False Negative (FN) | 
 | Actual Negative   | False Positive (FP) | True Negative (TN)  |  <br>
+
 The entries in the diagonal (TP and TN) represent correct predictions, while the off-diagonal entries (FP and FN) represent incorrect predictions.       
 - Precision Recall Curve
 
