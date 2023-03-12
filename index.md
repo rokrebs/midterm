@@ -66,7 +66,7 @@ To evaluate the performance of the classifications algorithms, I used the follow
 | Actual Positive   | True Positive (TP)  | False Negative (FN) | 
 | Actual Negative   | False Positive (FP) | True Negative (TN)  |  
 
-    The entries in the diagonal (TP and TN) represent correct predictions, while the off-diagonal entries (FP and FN) represent incorrect predictions.       
+   The entries in the diagonal (TP and TN) represent correct predictions, while the off-diagonal entries (FP and FN) represent incorrect predictions.       
 - Precision Recall Curve: It plots the precision and recall scores of a model for different classification thresholds.
 
 ## Results
