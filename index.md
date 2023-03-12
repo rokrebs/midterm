@@ -76,7 +76,8 @@ This is the graphical overview of the classifications performnance:
 - Naive Bayes:<br>
   <img width="478" alt="Screenshot 2023-03-12 at 15 19 00" src="https://user-images.githubusercontent.com/54292420/224571172-4f7fb45d-8af9-488d-bfd6-5e3d902d4b3f.png">
 - Decision Tree:<br>
- <img width="506" alt="Screenshot 2023-03-12 at 15 22 18" src="https://user-images.githubusercontent.com/54292420/224571364-6962b72c-5fcc-49b9-8407-4ed50672b8d8.png"> 
-- K-Nearest Neighbors
+  <img width="506" alt="Screenshot 2023-03-12 at 15 22 18" src="https://user-images.githubusercontent.com/54292420/224571364-6962b72c-5fcc-49b9-8407-4ed50672b8d8.png"> 
+- K-Nearest Neighbors: <br>
+  <img width="493" alt="Screenshot 2023-03-12 at 15 24 48" src="https://user-images.githubusercontent.com/54292420/224571488-87bb141f-14b2-4d59-a66b-d37152a4807e.png">
 
 
