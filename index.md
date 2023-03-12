@@ -21,8 +21,7 @@ The following libraries has been used:
 
 ## Colab Notebook
 
-The Colab Nootbook can be downloaded here:<br>
-[Spam Detection](https://colab.research.google.com/drive/17my6zWZR8hrFyJJmSfxNe1GUBkizrVsX?usp=sharing).
+The Colab Nootbook can be downloaded here: [Spam Detection](https://colab.research.google.com/drive/17my6zWZR8hrFyJJmSfxNe1GUBkizrVsX?usp=sharing).
 
 ## Dataset Exploration
 
